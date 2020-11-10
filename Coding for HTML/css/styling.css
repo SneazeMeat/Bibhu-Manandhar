@@ -1,0 +1,245 @@
+* {
+  box-sizing: fixed;
+}
+
+body {
+  background-color: #fff;
+}
+
+.nav-wrapper {
+  background-color: #1C1C1C;
+}
+
+.nav-wrapper #nav-mobile {
+  margin-left: 30%;
+}
+.nav-wrapper #nav-mobile a {
+  font-size: 22px;
+}
+.nav-wrapper #nav-mobile li {
+  padding-left: 15px;
+}
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.jumbotron .big-text {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 15px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.jumbotron #image {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.jumbotron .ghost {
+  position: absolute;
+  left: 450px;
+  opacity: 1;
+  z-index: 1;
+  top: 50%;
+  width: 110px;
+  height: 60px;
+  color: white;
+  opacity: 1;
+  background-color: transparent;
+  opacity: .7;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.jumbotron .ghost:hover {
+  border: 1px solid white;
+  opacity: 1;
+}
+
+.section {
+  background-color: #070B19;
+}
+.section h5,
+.section h4 {
+  color: white;
+}
+.section h4 {
+  font-family: 'Inconsolata', monospace;
+}
+.section .profile {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+}
+.section .profile .profile-info i {
+  border-radius: 50px;
+  position: relative;
+  left: 120px;
+}
+.section .interest .collapsible-body {
+  background-color: white;
+}
+.section .interest .collapsible-body P {
+  color: #212121;
+}
+.section p {
+  padding: 10px;
+  color: white;
+}
+
+#portfolio h3 {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.level {
+  background-color: #848484;
+  position: relative;
+  width: 100%;
+}
+
+.level > .container > .row > div img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease-in;
+  filter: grayscale(100%);
+}
+
+.level > .container > .row > div img:hover {
+  transform: scale(1.3);
+  filter: grayscale(0%);
+}
+
+.level h3 {
+  position: relative;
+  margin-top: 0px;
+  top: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+.level h4 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.social a {
+  color: black;
+}
+.social #face a:hover {
+  color: #3b5998;
+}
+.social #steam a:hover {
+  color: #00adee;
+}
+.social #insta a:hover {
+  color: #ffdc80;
+}
+
+.contact {
+  width: 100%;
+}
+.contact .feedback {
+  margin-top: -50px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #808080;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.blog-post h2 {
+  color: #0080FF;
+}
+
+.blog-post {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.blog-post p {
+  line-height: 30px;
+  text-align: justify;
+  color: #212121;
+  font-size: 18px;
+}
+
+.blog-post a:hover  {
+  border-bottom: 1px solid #00b8d4;
+}
+
+.research {
+  margin-bottom: 50px;
+}
+
+.research-list .research-row {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.research-list .research-row .col {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.research-list .research-row .col:hover img{
+  transform: scale(1.05);
+}
+
+.research-list .research-row .col img {
+  max-width: 100%;
+  transition: all .2s ease-in;
+}
+
+
+.resume-table {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.resume-table td {
+  padding: 25px;
+}
+
+.resume-table p {
+  font-size: 28px;
+}
+
+
+.academic-table {
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.academic-table tr:first-child {
+  font-weight: bold;
+}
+
+
+

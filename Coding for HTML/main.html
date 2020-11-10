@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PortFolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styling.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/portfolio.ico" type="image/x-icon">
+    <style type="text/css">
+    .slider {
+      width: 100%;
+      height: 500px;
+      box-sizing: border-box;
+    }
+
+    #img {
+    	height: 500px;
+    	padding-top: 120px;
+    }
+
+    img 
+    {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <ul id="nav-mobile">
+            <li><a href="#">Home</a></li>
+            <li><a href="main.html#about">About</a></li>
+            <li><a href="main.html#portfolio">Portfolio</a></li>
+            <li><a href="blog.html" target="_blank">Blog</a></li>
+            <li><a href="CV.html" target="_blank">CV</a></li>
+            <li><a href="main.html#contact">Contact</a></li>
+            <li><a href="blog.html#research">Research</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    
+  
+  
+    <div class="wrapper">
+      <div class="jumbotron">
+        <img src="assets/background.jpg" id='image' alt="Background">
+        <div class="slider">
+
+		    <div id="img">
+		      
+		    </div>
+
+  </div>
+
+  <script>
+
+    var images = ['assets/a.jpg', 'assets/b.jpg', 'assets/c.jpg'];
+
+    var x = 0;
+
+    var imgs = document.getElementById('img');
+
+    setInterval(slider, 3000);
+
+
+    function slider() {
+
+      if (x < images.length) {
+        x = x + 1;
+      } else {
+        x = 1;
+      }
+
+
+      imgs.innerHTML = "<img style='object-fit: contain' src=" + images[x - 1] + ">";
+
+
+   }
+
+  </script>
+        <div class="big-text">
+          <h1 id="heading">Bibhu Manandhar</h1>
+        </div>
+      </div>
+  
+      <div class="section" id="about">
+        <div class="container">
+          <h4 class="center">About Me</h4>
+          <div class="row" id="staggered-test">
+            <div class="col l4">
+              <div class="story post">
+                <h5 class="center">Detail</h5>
+                <div class="info">
+                  <p>Hi! I am Bibhu. I was born on 23rd of November in 1998. I live in Bafal a small location inside our beautiful Kathmandu valley. I am currently studying my Bachelors degree in Islington College. My friends know me as a pro gamer in PUBG mobile, DOTA 2 and CS GO, but my teachers know me as a good and talented student. I am also a person who keeps on trying until and unless I achieve the expected end result.</p>        
+                  <p>I like to go to the gym and workout. I also play a lot of football nowadays as it is kind of a trend nowadays in Nepal. I also like to hangout with my friends most of the time.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col l4">
+              <div class="profile post">
+                <h5 class="center">Description</h5>
+                <div class="profile-info">
+                  <p>As i am interested in becoming a software engineer, I am currently studying BIT. My aim in life is to become a game developer as since I was a child I always wondered how games are made and work.</p>
+                  <p>Since gaming is what I usually do,I have an aim or a dream of making my own game and being a successful game developer as well.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col l4 s12">
+              <div class="interest post">
+                <h5 class="center">Interest</h5>
+                <ul class="collapsible popout z-depth-4">
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">adb</i>Programming</div>
+                    
+                  </li>
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">computer</i>Gaming</div>
+                    
+                  </li>
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">directions_run</i>Football</div>
+                    
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="level" id="portfolio">
+        <h3 align="center">Portfolio</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col l4">
+              <a target="_blank"><img src="assets/pic1.jpg" alt="Picture 1"></a>
+            </div>
+            <div class="col l4">
+              <a target="_blank"><img src="assets/pic2.jpg" alt="Picture 2"></a>
+            </div>
+            <div class="col l4">
+              <a target="_blank"><img src="assets/pic3.jpg" alt="Picture 3"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l4">
+              <a target="_blank"><img src="assets/pic4.jpg" alt="Picture 4"></a>
+              </div>
+            <div class="col l4">
+              <a target="_blank"><img src="assets/pic5.jpg" alt="Picture 5"></a>
+            </div>
+            <div class="col l4">
+              <a target="_blank"><img src="assets/pic6.jpg" alt="Picture 6"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="contact" id="contact">
+        <div class="container">
+          <h4 class="center">Contact Me </h4>
+          <div class="row">
+            <div class='col l6'>
+              <div class="social">
+                <div class='row'>
+                <div class="fb col s4">
+                  <div class="social-img" id='face'>
+                    <a href="https://www.facebook.com/bibhu.manandhar" target='_blank'><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+  
+                <div class="st col s4">
+                  <div class="social-img" id='steam'>
+                    <a href="https://steamcommunity.com/profiles/76561198192767102" target='_blank'><i class="fa fa-steam-square fa-4x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+  
+                <div class="in col s4">
+                  <div class="social-img" id='insta'>
+                   <a href="https://www.instagram.com/bibhu_manandhar/" target='_blank'><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+                  </div>
+              </div>
+            </div>
+  
+            <div class='col l6'>
+              <div class="contact center">
+                <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Name</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                      </div>
+                    </div>
+                    
+                     <div class="row feedback">
+                      <div class="input-field col s12">
+                        <textarea id="feedback" class="materialize-textarea"></textarea>
+                        <label for="feedback">Feedback</label>
+                      </div>
+                    </div>
+                     <button class="btn waves-effect waves-light black" type="submit" name="action">Submit
+      <i class="material-icons right">send</i>
+    </button>
+          
+                  </form>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <footer>
+        <p align='center'>Copyright &copy; 2019</p>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    </body>
+    </html>
