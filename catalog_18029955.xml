@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/css" href="catalog_18029955.css"?>
+
+<BibhuUsedCars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_18029955.xsd">
+	<Details>
+		<Logo></Logo>
+		<Shop_Name>BibhuUsedCars</Shop_Name>
+		<Address>Bafal, Kathmandu</Address>
+		<Telephone>01-4283383</Telephone>
+		<URL>www.bibhucars.com</URL>
+	</Details>
+	<Cars>
+		<Vehicle_Type VID="HB">
+			<Car_Type>Hatchback</Car_Type>
+			<Description>A hatchback car is a vehicle that has a 
+			large door in the back that swings upward.</Description>
+			<Available>5</Available>
+			<Brands>
+				<Brand BID="HB-01" VID="HB">
+					<Image></Image>
+					<BrandName>Maruti Suzuki</BrandName>
+					<CarName>Swift</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>42 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>2</Previous_Owners>
+						<Kilometers_Run>30000</Kilometers_Run>
+					</Condition>
+					<Color>Solid Fire Red</Color>
+					<Price>Rs 31.99 lakh</Price>
+					<Manufacture_Year>2017</Manufacture_Year>
+					<Milage>20 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>Yes</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>	
+				<Brand BID="HB-02" VID="HB">
+					<Image></Image>
+					<BrandName>Maruti Suzuki</BrandName>
+					<CarName>Baleno</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>37 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>25000</Kilometers_Run>
+					</Condition>
+					<Color>Pearl Phoenix Red</Color>
+					<Price>Rs 34.00 lakh</Price>
+					<Manufacture_Year>2019</Manufacture_Year>
+					<Milage>27 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>	
+				<Brand BID="HB-03" VID="HB">
+					<Image></Image>
+					<BrandName>Hyundai</BrandName>
+					<CarName>Santro</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>35 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>0</Previous_Owners>
+						<Kilometers_Run>500</Kilometers_Run>
+					</Condition>
+					<Color>Light Grey</Color>
+					<Price>Rs 24.96 lakh</Price>
+					<Manufacture_Year>2019</Manufacture_Year>
+					<Milage>20 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="HB-04" VID="HB">
+					<Image></Image>
+					<BrandName>Volkswagen</BrandName>
+					<CarName>Polo</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>45 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>45500</Kilometers_Run>
+					</Condition>
+					<Color>Copper Orange</Color>
+					<Price>Rs 28.95 lakh</Price>
+					<Manufacture_Year>2018</Manufacture_Year>
+					<Milage>19 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>Yes</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="HB-05" VID="HB">
+					<Image></Image>
+					<BrandName>Hyundai</BrandName>
+					<CarName>Ioniq</CarName>
+					<Type>Electric</Type>
+					<Battery_Capacity>1.56 kWh</Battery_Capacity>
+					<Full_Charge_Time>4 hours 20 min</Full_Charge_Time>
+					<Energy_Consumption>12.61 kWh/100km</Energy_Consumption>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>200</Kilometers_Run>
+					</Condition>
+					<Color>Black Noir Pearl</Color>
+					<Price>Rs 34.00 lakh</Price>
+					<Manufacture_Year>2019</Manufacture_Year>
+					<Electric_Range>311 km</Electric_Range>
+					<Transmission>1</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>Yes</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+			</Brands>
+		</Vehicle_Type>
+			
+		<Vehicle_Type VID="SD">
+			<Car_Type>Sedan</Car_Type>
+			<Description>These are four-door vehicles which can accommodate two passengers in the front, 
+			including the driver, and three in the rear seat. However, every car in the country has a similar 
+			5-seater structure, but what differentiates a sedan from the rest is its trunk space which juts
+			out from the rear.</Description>
+			<Available>5</Available>
+			<Brands>
+				<Brand BID="SD-01" VID="SD">
+					<Image></Image>
+					<BrandName>Honda</BrandName>
+					<CarName>Amaze</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>35 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>2</Previous_Owners>
+						<Kilometers_Run>50000</Kilometers_Run>
+					</Condition>
+					<Color>White Orchid Pearl</Color>
+					<Price>Rs 32.75 lakh</Price>
+					<Manufacture_Year>2018</Manufacture_Year>
+					<Milage>25 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="SD-02" VID="SD">
+					<Image></Image>
+					<BrandName>Honda</BrandName>
+					<CarName>City</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>40 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>65000</Kilometers_Run>
+					</Condition>
+					<Color>Dark Grey</Color>
+					<Price>Rs 43.00 lakh</Price>
+					<Manufacture_Year>2017</Manufacture_Year>
+					<Milage>18 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>Yes</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="SD-03" VID="SD">
+					<Image></Image>
+					<BrandName>Volkswagen</BrandName>
+					<CarName>Vento</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Diesel</Fuel_Type>
+					<Fuel_Capacity>55 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>40000</Kilometers_Run>
+					</Condition>
+					<Color>Lapiz Blue</Color>
+					<Price>Rs 38.95 lakh</Price>
+					<Manufacture_Year>2018</Manufacture_Year>
+					<Milage>16 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>No</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="SD-04" VID="SD">
+					<Image></Image>
+					<BrandName>Nissan</BrandName>
+					<CarName>Sunny</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>41 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>3</Previous_Owners>
+						<Kilometers_Run>87000</Kilometers_Run>
+					</Condition>
+					<Color>Onyx Black</Color>
+					<Price>Rs 38.99 lakh</Price>
+					<Manufacture_Year>2015</Manufacture_Year>
+					<Milage>22 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>No</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>Yes</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="SD-05" VID="SD">
+					<Image></Image>
+					<BrandName>Suzuki</BrandName>
+					<CarName>Dzire</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>42 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>35000</Kilometers_Run>
+					</Condition>
+					<Color>Azure Grey</Color>
+					<Price>Rs 32.49 lakh</Price>
+					<Manufacture_Year>2018</Manufacture_Year>
+					<Milage>23 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+			</Brands>
+		</Vehicle_Type>
+		
+		<Vehicle_Type VID="SUV">
+			<Car_Type>SUV</Car_Type>
+			<Description>Sport utility vehicle is a category of motor vehicles that combine elements
+			of road-going passenger cars with features from off-road vehicles, such as raised ground 
+			clearance and four-wheel drive.</Description>
+			<Available>5</Available>
+			<Brands>
+				<Brand BID="SUV-01" VID="SUV">
+					<Image></Image>
+					<BrandName>Ford</BrandName>
+					<CarName>Ecosport</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Diesel</Fuel_Type>
+					<Fuel_Capacity>52 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>33200</Kilometers_Run>
+					</Condition>
+					<Color>Diamond White</Color>
+					<Price>Rs 47.40 lakh</Price>
+					<Manufacture_Year>2018</Manufacture_Year>
+					<Milage>16 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>Yes</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="SUV-02" VID="SUV">
+					<Image></Image>
+					<BrandName>Hyundai</BrandName>
+					<CarName>Kona Electric</CarName>
+					<Type>Electric</Type>
+					<Battery_Capacity>67.1 kWh</Battery_Capacity>
+					<Full_Charge_Time>6 hours 10 min</Full_Charge_Time>
+					<Energy_Consumption>24.46 kWh/100km</Energy_Consumption>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>0</Previous_Owners>
+						<Kilometers_Run>250</Kilometers_Run>
+					</Condition>
+					<Color>Typhoon Silver</Color>
+					<Price>Rs 65.96 lakh</Price>
+					<Manufacture_Year>2019</Manufacture_Year>
+					<Electric_Range>452 km</Electric_Range>
+					<Transmission>6</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>Yes</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="SUV-03" VID="SUV">
+					<Image></Image>
+					<BrandName>Jeep</BrandName>
+					<CarName>Compass Trailhawk</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Diesel</Fuel_Type>
+					<Fuel_Capacity>60 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>25000</Kilometers_Run>
+					</Condition>
+					<Color>Redline Red</Color>
+					<Price>Rs 76.50 lakh</Price>
+					<Manufacture_Year>2019</Manufacture_Year>
+					<Milage>17 kmpl</Milage>
+					<Transmission>9</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>Yes</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="SUV-04" VID="SUV">
+					<Image></Image>
+					<BrandName>Nissan</BrandName>
+					<CarName>Kicks</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Diesel</Fuel_Type>
+					<Fuel_Capacity>50 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>0</Previous_Owners>
+						<Kilometers_Run>155</Kilometers_Run>
+					</Condition>
+					<Color>Pearl White</Color>
+					<Price>Rs 47.99 lakh</Price>
+					<Manufacture_Year>2020</Manufacture_Year>
+					<Milage>15 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>Yes</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="SUV-05" VID="SUV">
+					<Image></Image>
+					<BrandName>Hyundai</BrandName>
+					<CarName>Venue</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Diesel</Fuel_Type>
+					<Fuel_Capacity>45 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>0</Previous_Owners>
+						<Kilometers_Run>195</Kilometers_Run>
+					</Condition>
+					<Color>Star Dust</Color>
+					<Price>Rs 34.96 lakh</Price>
+					<Manufacture_Year>2019</Manufacture_Year>
+					<Milage>24 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+			</Brands>
+		</Vehicle_Type>
+		
+		<Vehicle_Type VID="MV">
+			<Car_Type>Minivan</Car_Type>
+			<Description>Minivan emphasises equally on passenger comfort as well as space, 
+			thus making it suitable as a family vehicle.</Description>
+			<Available>5</Available>
+			<Brands>
+				<Brand BID="MV-01" VID="MV">
+					<Image></Image>
+					<BrandName>Honda</BrandName>
+					<CarName>Mobolio</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>42 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>2</Previous_Owners>
+						<Kilometers_Run>78000</Kilometers_Run>
+					</Condition>
+					<Color>Majestic Blue Mattlic</Color>
+					<Price>Rs 12.33 lakh</Price>
+					<Manufacture_Year>2017</Manufacture_Year>
+					<Milage>24 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="MV-02" VID="MV">
+					<Image></Image>
+					<BrandName>Maruti Suzuki</BrandName>
+					<CarName>Omni</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>36 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>Used</Condition_Type>
+						<Previous_Owners>1</Previous_Owners>
+						<Kilometers_Run>55000</Kilometers_Run>
+					</Condition>
+					<Color>Metallic silky silver</Color>
+					<Price>Rs 14.59 lakh</Price>
+					<Manufacture_Year>2018</Manufacture_Year>
+					<Milage>16 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>No</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="MV-03" VID="MV">
+					<Image></Image>
+					<BrandName>Maruti Suzuki</BrandName>
+					<CarName>Eeco</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Petrol</Fuel_Type>
+					<Fuel_Capacity>36 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>0</Previous_Owners>
+						<Kilometers_Run>100</Kilometers_Run>
+					</Condition>
+					<Color>Silky silver</Color>
+					<Price>Rs 20.69 lakh</Price>
+					<Manufacture_Year>2019</Manufacture_Year>
+					<Milage>15 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="MV-04" VID="MV">
+					<Image></Image>
+					<BrandName>Kia</BrandName>
+					<CarName>Carnival</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Diesel</Fuel_Type>
+					<Fuel_Capacity>60 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>0</Previous_Owners>
+						<Kilometers_Run>50</Kilometers_Run>
+					</Condition>
+					<Color>Steel silver</Color>
+					<Price>Rs 81.90 lakh</Price>
+					<Manufacture_Year>2020</Manufacture_Year>
+					<Milage>15 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>Yes</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+				<Brand BID="MV-05" VID="MV">
+					<Image></Image>
+					<BrandName>Toyota</BrandName>
+					<CarName>Hiace</CarName>
+					<Type>Fuel</Type>
+					<Fuel_Type>Diesel</Fuel_Type>
+					<Fuel_Capacity>70 litres</Fuel_Capacity>
+					<Condition>
+						<Condition_Type>New</Condition_Type>
+						<Previous_Owners>0</Previous_Owners>
+						<Kilometers_Run>50</Kilometers_Run>
+					</Condition>
+					<Color>Silver Mica Metallic</Color>
+					<Price>Rs 70.00 lakh</Price>
+					<Manufacture_Year>2020</Manufacture_Year>
+					<Milage>12 kmpl</Milage>
+					<Transmission>5</Transmission>
+					<Vehicle_Features>
+						<Air_Bag>Yes</Air_Bag>
+						<ABS>No</ABS>
+						<Tubeless_Tyres>No</Tubeless_Tyres>
+						<Alloy_Wheels>No</Alloy_Wheels>
+					</Vehicle_Features>
+				</Brand>
+			</Brands>	
+		</Vehicle_Type>	
+	</Cars>
+</BibhuUsedCars>

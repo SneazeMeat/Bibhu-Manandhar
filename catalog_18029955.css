@@ -1,0 +1,258 @@
+BibhuUsedCars {
+    background: #008080;
+}
+
+Logo{
+    display: block;
+    background-image: url("images/Logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 500px;
+    height: 300px; 
+    margin-bottom: 20px; 
+}
+
+Details {
+    text-align: center;
+	font-size: 26px;
+	font-family: 'Courier';
+}
+
+}
+Details Shop_Name {
+    display: block;
+    font-size: 26px;
+}
+
+Details URL {
+	text-decoration: underline;
+}
+
+Details Shop_Name,
+Details Address,
+Details Telephone,
+Details URL {
+    display: block;
+}
+
+Cars>Vehicle_Type {
+    display: block;
+    margin: 10px;
+    flex-basis: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+Cars Car_Type {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+Description{
+    display:block;
+	text-align: center;
+    font-style: italic;
+    font-size: 30px;
+	text-decoration: underline;
+	margin-bottom: 15px;
+	color : #FFF8DC;
+
+}
+Cars Vehicle_Type Available::before{
+    content: "Available: "
+}
+Cars Available {
+    display: block;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+Cars Brands {
+    display: block;
+    width: 100%;
+}
+
+Cars Brands>Brand {
+    display: inline-block;
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 17%;
+    border: 1px solid black;
+    font-family: 'Arial';
+}
+
+
+Cars Vehicle_Type BrandName::before{
+	content: "BrandName: ";
+	color: blue;
+}
+Cars Vehicle_Type CarName::before{
+	content: "CarName: ";
+	color: blue;
+}
+Cars Vehicle_Type Type::before{
+	content: "Type: " ;
+	color: blue;
+}
+Cars Vehicle_Type Fuel_Type::before{
+	content: "Fuel_Type: " ;
+	color: blue;
+}
+Cars Vehicle_Type Fuel_Capacity::before{
+	content: "Fuel_Capacity: ";
+	color: blue;
+}
+Cars Vehicle_Type Condition_Type::before{
+	content: "Condition_Type: ";
+	color: blue;
+}
+Cars Vehicle_Type Previous_Owners::before{
+	content: "Previous_Owners: ";
+	color: blue;
+}
+Cars Vehicle_Type Kilometers_Run::before{
+	content: "Kilometers_Run: ";
+	color: blue;
+}
+Cars Vehicle_Type Color::before{
+	content: "Color: ";
+	color: blue;
+}
+Cars Vehicle_Type Price::before{
+	content: "Price: ";
+	color: blue;
+}
+Cars Vehicle_Type Manufacture_Year::before{
+	content: "Manufacture_Year: ";
+	color: blue;
+}
+Cars Vehicle_Type Milage::before{
+	content: "Milage: ";
+	color: blue;
+}
+Cars Vehicle_Type Transmission::before{
+	content: "Transmission: ";
+	color: blue;
+}
+Cars Vehicle_Type Air_Bag::before{
+	content: "Air_Bag: ";
+	color: blue;
+}
+Cars Vehicle_Type ABS::before{
+	content: "ABS: ";
+	color: blue;
+}
+Cars Vehicle_Type Tubeless_Tyres::before{
+	content: "Tubeless_Tyres: ";
+	color: blue;
+}
+Cars Vehicle_Type Battery_Capacity::before{
+	content: "Battery_Capacity: ";
+	color: blue;
+}
+Cars Vehicle_Type Full_Charge_Time::before{
+	content: "Full_Charge_Time: ";
+	color: blue;
+}Cars Vehicle_Type Energy_Consumption::before{
+	content: "Energy_Consumption: ";
+	color: blue;
+}Cars Vehicle_Type Alloy_Wheels::before{
+	content: "Alloy_Wheels: ";
+	color: blue;
+}Cars Vehicle_Type Electric_Range::before{
+	content: "Electric_Range: ";
+	color: blue;
+}
+
+Brand {float: left;}
+Vehicle_Type {clear: both;}
+BrandName {float: middle;}
+
+Brand * {
+    display: list-item;
+    margin-left: 25px;
+}
+
+Cars Brands>Brand>BrandName {
+    font-weight: bold;
+    margin-bottom: 6px
+}
+
+
+}
+Cars  Vehicle_Type {
+    display: block;
+    background: rgb(95,158,160);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+Cars  Vehicle_Type Vehicle_Type_Name {
+    display: block;
+    margin-left: 0px;
+}
+
+Cars  Vehicle_Type Vehicle_Type_Head {
+    display: block;
+}
+
+
+Cars  Vehicle_Type>Vehicle_Type_Head::before{
+    content: "Vehicle_Type Head:  ";
+}
+
+
+Cars  Vehicle_Type>Available::before{
+    content: "Available: ";
+}
+Cars  Vehicle_Type>Available{
+    display: block;
+    text-align: middle;
+	margin-left: 850px;
+    font-size: 30px;   
+    font-weight: bold;
+	font-family: 'Rockwell';
+
+}
+
+Brand:hover{
+    background-color:rgb(32,178,170);
+    box-shadow: 1px 1px 1px 4px black;
+}
+
+Image {
+    width: 100%;
+    height: 230px;
+	margin: 15px 0;
+    list-style: none;
+}
+
+Brand[BID="HB-01"] Image {background: url(images/car1.png) center; background-size: cover;}
+Brand[BID="HB-02"] Image {background: url(images/car2.png) center; background-size: cover;}
+Brand[BID="HB-03"] Image {background: url(images/car3.png) center; background-size: cover;}
+Brand[BID="HB-04"] Image {background: url(images/car4.png) center; background-size: cover;}
+Brand[BID="HB-05"] Image {background: url(images/car5.png) center; background-size: cover;}
+Brand[BID="SD-01"] Image {background: url(images/car6.png) center; background-size: cover;}
+Brand[BID="SD-02"] Image {background: url(images/car7.png) center; background-size: cover;}
+Brand[BID="SD-03"] Image {background: url(images/car8.png) center; background-size: cover;}
+Brand[BID="SD-04"] Image {background: url(images/car9.png) center; background-size: cover;}
+Brand[BID="SD-05"] Image {background: url(images/car10.png) center; background-size: cover;}
+Brand[BID="SUV-01"] Image {background: url(images/car11.png) center; background-size: cover;}
+Brand[BID="SUV-02"] Image {background: url(images/car12.png) center; background-size: cover;}
+Brand[BID="SUV-03"] Image {background: url(images/car13.png) center; background-size: cover;}
+Brand[BID="SUV-04"] Image {background: url(images/car14.png) center; background-size: cover;}
+Brand[BID="SUV-05"] Image {background: url(images/car15.png) center; background-size: cover;}
+Brand[BID="MV-01"] Image {background: url(images/car16.png) center; background-size: cover;}
+Brand[BID="MV-02"] Image {background: url(images/car17.png) center; background-size: cover;}
+Brand[BID="MV-03"] Image {background: url(images/car18.png) center; background-size: cover;}
+Brand[BID="MV-04"] Image {background: url(images/car19.png) center; background-size: cover;}
+Brand[BID="MV-05"] Image {background: url(images/car20.png) center; background-size: cover;}
