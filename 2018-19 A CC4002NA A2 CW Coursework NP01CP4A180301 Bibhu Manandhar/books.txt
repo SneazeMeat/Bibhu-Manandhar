@@ -1,0 +1,10 @@
+1,Haarry Potterr,JK Rowling,26,$2
+2,Start with Why,Simonione Sinek,6,$1.5
+3,Program Python,John Obli Smoth,20,$1.5
+4,Open to hearts,Andresea Agassi,11,$1
+5,Audacity Hopes,Barack Williams,13,$3
+6,Shadow of Line,Amitav Ghoshala,4,$1.5
+7,Lords of rings,William Golding,38,$1
+8,TrainPakistaan,Khushwant Singh,21,$0.5
+9,Atmakatha hora,Rajendra Prasad,8,$14
+10,Who Steve Jobs,Walter Isaacson,25,$20
