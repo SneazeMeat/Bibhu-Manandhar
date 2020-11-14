@@ -1,0 +1,600 @@
+bibhu@Bibhu-G7:~$ cat 18029955cw2part1
+Script started on 2020-03-15 17:48:57+05:45 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="117" LINES="63"]
+bibhu@Bibhu-G7:~$ PS1='$PWD> '
+/home/bibhu> mkdir -p Cricket/{India,Australia,England,Pakistan,Bangladesh}
+/home/bibhu> tree
+.
+├── 18029955cw2part1
+├── break
+├── continue
+├── count
+├── Cricket
+│   ├── Australia
+│   ├── Bangladesh
+│   ├── England
+│   ├── India
+│   └── Pakistan
+├── elseif
+├── flower
+├── function1
+├── iff
+├── nested_function
+├── new_function
+├── TEST
+│   ├── file1
+│   └── file2
+├── testfile
+├── testX
+├── testY
+├── until1
+└── usinf
+
+7 directories, 17 files
+/home/bibhu> cd Cricket/India
+/home/bibhu/Cricket/India> pwd
+/home/bibhu/Cricket/India
+/home/bibhu/Cricket/India> touch file1 file2
+/home/bibhu/Cricket/India> tree
+.
+├── file1
+└── file2
+
+0 directories, 2 files
+/home/bibhu/Cricket/India> cd ..
+/home/bibhu/Cricket> rm -i India/file1
+rm: remove regular empty file 'India/file1'? y
+/home/bibhu/Cricket> rm -i India/file2
+rm: remove regular empty file 'India/file2'? y
+/home/bibhu/Cricket> rmdir India
+/home/bibhu/Cricket> tree
+.
+├── Australia
+├── Bangladesh
+├── England
+└── Pakistan
+
+4 directories, 0 files
+/home/bibhu/Cricket> echo -e "Cricket is a bat and ball game played between two teams.\n14 < (2+2)"
+Cricket is a bat and ball game played between two teams.
+14 < (2+2)
+/home/bibhu/Cricket> pwd
+/home/bibhu/Cricket
+/home/bibhu/Cricket> cd Australia
+/home/bibhu/Cricket/Australia> pwd
+/home/bibhu/Cricket/Australia
+/home/bibhu/Cricket/Australia> pwd; cd; pwd
+/home/bibhu/Cricket/Australia
+/home/bibhu
+/home/bibhu> echo -e "The first command shows the present working directory then it sends back to the home directory
+where now again the present working directory is shown."
+The first command shows the present working directory then it sends back to the home directory where now again the present working directory is shown.
+/home/bibhu> cd Australia
+bash: cd: Australia: No such file or directory
+/home/bibhu> cd Cricket/Australia
+/home/bibhu/Cricket/Australia> pwd; cd ..; pwd; cd ..; pwd
+/home/bibhu/Cricket/Australia
+/home/bibhu/Cricket
+/home/bibhu
+/home/bibhu> echo -e "Present working directory is shown then after this it goes back one directory and again shows the present working directory then again goes back one directory and again shows the present working directory."
+Present working directory is shown then after this it goes back one directory and again shows the present working directory then again goes back one directory and again shows the present working directory.
+/home/bibhu> cd; pwd
+/home/bibhu
+/home/bibhu> echo -e "This command takes us to the back to the home directory and then shows the present working directory."
+This command takes us to the back to the home directory and then shows the present working directory.
+/home/bibhu> ls
+18029955cw2part1  continue  Cricket  flower     iff              new_function  testfile  testY   usinf
+break             count     elseif   function1  nested_function  TEST          testX     until1
+/home/bibhu> echo -e "This command lists all the files and folders."
+This command lists all the files and folders.
+/home/bibhu> ls -a
+.                 .bash_history  break     Cricket  function1  nested_function  TEST      testY
+..                .bash_logout   continue  elseif   iff        new_function     testfile  until1
+18029955cw2part1  .bashrc        count     flower   .local     .profile         testX     usinf
+/home/bibhu> echo -e "This command lists all hidden and non-hidden files and folders."
+This command lists all hidden and non-hidden files and folders.
+/home/bibhu> ls -al
+total 144
+drwxr-xr-x 1 bibhu bibhu   512 Mar 15 17:49 .
+drwxr-xr-x 1 root  root    512 Dec 23 14:30 ..
+-rw-rw-rw- 1 bibhu bibhu 81920 Mar 15 17:58 18029955cw2part1
+-rw------- 1 bibhu bibhu  5395 Mar 15 17:48 .bash_history
+-rw-r--r-- 1 bibhu bibhu   220 Dec 23 14:30 .bash_logout
+-rw-r--r-- 1 bibhu bibhu  3696 Mar  6 13:13 .bashrc
+-rw-rw-rw- 1 bibhu bibhu   205 Mar 13 13:51 break
+-rw-rw-rw- 1 bibhu bibhu   119 Mar 13 13:53 continue
+-rw-rw-rw- 1 bibhu bibhu    94 Mar  6 13:59 count
+drwxrwxrwx 1 bibhu bibhu   512 Mar 15 17:52 Cricket
+-rw-rw-rw- 1 bibhu bibhu   209 Feb 26 08:54 elseif
+-rw-rw-rw- 1 bibhu bibhu   247 Mar  6 13:53 flower
+-rw-rw-rw- 1 bibhu bibhu   274 Mar 13 14:07 function1
+-rw-rw-rw- 1 bibhu bibhu   176 Feb 26 08:43 iff
+drwxrwxrwx 1 bibhu bibhu   512 Feb 26 08:37 .local
+-rw-rw-rw- 1 bibhu bibhu   319 Mar 13 14:19 nested_function
+-rw-rw-rw- 1 bibhu bibhu    83 Mar 13 14:03 new_function
+-rw-r--r-- 1 bibhu bibhu   807 Dec 23 14:30 .profile
+drwxrwxrwx 1 bibhu bibhu   512 Mar  8 20:41 TEST
+-rw-rw-rw- 1 bibhu bibhu    89 Mar  6 14:14 testfile
+-rw-rw-rw- 1 bibhu bibhu    14 Mar 10 17:18 testX
+-rw-rw-rw- 1 bibhu bibhu    10 Mar 10 17:13 testY
+-rw-rw-rw- 1 bibhu bibhu   170 Mar  6 14:07 until1
+-rw-rw-rw- 1 bibhu bibhu   192 Mar  6 14:36 usinf
+/home/bibhu> echo -e "This command lists all hidden and non-hidden files and folders with all its detail."
+This command lists all hidden and non-hidden files and folders with all its detail.
+/home/bibhu> cd; pwd; cd Cricket; pwd
+/home/bibhu
+/home/bibhu/Cricket
+/home/bibhu/Cricket> echo -e "First it goes to the home directory and displays the present working directory then it
+goes to the Cricket directory and shows the current working directory."
+First it goes to the home directory and displays the present working directory then it goes to the Cricket directory and shows the current working directory.
+/home/bibhu/Cricket> ls -R
+.:
+Australia  Bangladesh  England  Pakistan
+
+./Australia:
+
+./Bangladesh:
+
+./England:
+
+./Pakistan:
+/home/bibhu/Cricket> echo -e "This command displays the folders and files alongside with all the subfolders with its content inside the Cricket directory."
+This command displays the folders and files alongside with all the subfolders with its content inside the Cricket directory.
+/home/bibhu/Cricket> cd Australia
+/home/bibhu/Cricket/Australia> cat > testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+^C
+/home/bibhu/Cricket/Australia> cat testX > testY
+/home/bibhu/Cricket/Australia> cat testX > testZ
+/home/bibhu/Cricket/Australia> cat testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/bibhu/Cricket/Australia> cat testY
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/bibhu/Cricket/Australia> cat testZ
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/bibhu/Cricket/Australia> cp testX ../Bangladesh/
+/home/bibhu/Cricket/Australia> cp testY ../Bangladesh/
+/home/bibhu/Cricket/Australia> cp testZ ../Bangladesh/
+/home/bibhu/Cricket/Australia> cd ../
+/home/bibhu/Cricket> cd Bangladesh
+/home/bibhu/Cricket/Bangladesh> tree
+.
+├── testX
+├── testY
+└── testZ
+
+0 directories, 3 files
+/home/bibhu/Cricket/Bangladesh> cd ../Australia/
+/home/bibhu/Cricket/Australia> cat testX testY testZ
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/bibhu/Cricket/Australia> cat testX testY testZ > testResult
+/home/bibhu/Cricket/Australia> cat testResult
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/bibhu/Cricket/Australia> cat testX - testY >> testResult
+Bibhu Manandhar
+L2C10
+NP01CP4A180301
+^C
+/home/bibhu/Cricket/Australia> cat testResult
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+Bibhu Manandhar
+L2C10
+NP01CP4A180301
+/home/bibhu/Cricket/Australia> cat test[XYZ]
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/bibhu/Cricket/Australia> echo -e "Contents inside the files testX, testY and testZ are displayed as one."
+Contents inside the files testX, testY and testZ are displayed as one.
+/home/bibhu/Cricket/Australia> ls -l
+total 0
+-rw-rw-rw- 1 bibhu bibhu 325 Mar 15 18:05 testResult
+-rw-rw-rw- 1 bibhu bibhu  72 Mar 15 18:02 testX
+-rw-rw-rw- 1 bibhu bibhu  72 Mar 15 18:02 testY
+-rw-rw-rw- 1 bibhu bibhu  72 Mar 15 18:03 testZ
+/home/bibhu/Cricket/Australia> chmod 000 testX
+/home/bibhu/Cricket/Australia> ls -l testX
+---------- 1 bibhu bibhu 72 Mar 15 18:02 testX
+/home/bibhu/Cricket/Australia> cat testX
+cat: testX: Permission denied
+/home/bibhu/Cricket/Australia> cat >> testX
+bash: testX: Permission denied
+/home/bibhu/Cricket/Australia> chmod 600 testX
+/home/bibhu/Cricket/Australia> ls -l testX
+-rw------- 1 bibhu bibhu 72 Mar 15 18:02 testX
+/home/bibhu/Cricket/Australia> cat testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/bibhu/Cricket/Australia> cat >> testX
+Bibhu Manandhar
+^C
+/home/bibhu/Cricket/Australia> cd ..
+/home/bibhu/Cricket> ls -l Australia
+total 0
+-rw-rw-rw- 1 bibhu bibhu 325 Mar 15 18:05 testResult
+-rw------- 1 bibhu bibhu  88 Mar 15 18:08 testX
+-rw-rw-rw- 1 bibhu bibhu  72 Mar 15 18:02 testY
+-rw-rw-rw- 1 bibhu bibhu  72 Mar 15 18:03 testZ
+/home/bibhu/Cricket> chmod 000 Australia
+/home/bibhu/Cricket> ls -l
+total 0
+d--------- 1 bibhu bibhu 512 Mar 15 18:05 Australia
+drwxrwxrwx 1 bibhu bibhu 512 Mar 15 18:03 Bangladesh
+drwxrwxrwx 1 bibhu bibhu 512 Mar 15 17:49 England
+drwxrwxrwx 1 bibhu bibhu 512 Mar 15 17:49 Pakistan
+/home/bibhu/Cricket> cat Australia/testX
+cat: Australia/testX: Permission denied
+/home/bibhu/Cricket> touch Australia/file10
+touch: cannot touch 'Australia/file10': Permission denied
+/home/bibhu/Cricket> ls Australia
+ls: cannot open directory 'Australia': Permission denied
+/home/bibhu/Cricket> chmod 700 Australia
+/home/bibhu/Cricket> ls -l
+total 0
+drwx------ 1 bibhu bibhu 512 Mar 15 18:05 Australia
+drwxrwxrwx 1 bibhu bibhu 512 Mar 15 18:03 Bangladesh
+drwxrwxrwx 1 bibhu bibhu 512 Mar 15 17:49 England
+drwxrwxrwx 1 bibhu bibhu 512 Mar 15 17:49 Pakistan
+/home/bibhu/Cricket> cat Australia/testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+Bibhu Manandhar
+/home/bibhu/Cricket> touch Australia/file10
+/home/bibhu/Cricket> ls Australia
+file10  testResult  testX  testY  testZ
+/home/bibhu/Cricket> cd Bangladesh
+/home/bibhu/Cricket/Bangladesh> grep bb testX
+aaabb Aaaaa
+bbbcc Bbbbb
+/home/bibhu/Cricket/Bangladesh> echo -e "Contents with the words bb in the file testX are displayed."
+Contents with the words bb in the file testX are displayed.
+/home/bibhu/Cricket/Bangladesh> grep -v bb testX
+AAAAA
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/bibhu/Cricket/Bangladesh> echo -e "Contents without the words bb in the file testX are displayed. It is also case sensitive."
+Contents without the words bb in the file testX are displayed. It is also case sensitive.
+/home/bibhu/Cricket/Bangladesh> grep -n bb testX
+1:aaabb Aaaaa
+3:bbbcc Bbbbb
+/home/bibhu/Cricket/Bangladesh> echo -e "Contents with the words bb in the file testX are displayed alongside with the line number that is loacated."
+Contents with the words bb in the file testX are displayed alongside with the line number that is loacated.
+/home/bibhu/Cricket/Bangladesh> grep -l bb *
+testX
+testY
+testZ
+/home/bibhu/Cricket/Bangladesh> echo -e "All files that has bb inside it is displayed."
+All files that has bb inside it is displayed.
+/home/bibhu/Cricket/Bangladesh> grep -i BB *
+testX:aaabb Aaaaa
+testX:bbbcc Bbbbb
+testX:BBBBB
+testY:aaabb Aaaaa
+testY:bbbcc Bbbbb
+testY:BBBBB
+testZ:aaabb Aaaaa
+testZ:bbbcc Bbbbb
+testZ:BBBBB
+/home/bibhu/Cricket/Bangladesh> echo -e "File names and the contents with BB in them are displayed regardless of thier case."
+File names and the contents with BB in them are displayed regardless of thier case.
+/home/bibhu/Cricket/Bangladesh> grep -c bb *
+testX:2
+testY:2
+testZ:2
+/home/bibhu/Cricket/Bangladesh> echo -e "File name with number of lines that contains bb are displayed."
+File name with number of lines that contains bb are displayed.
+/home/bibhu/Cricket/Bangladesh> grep '^A' *
+testX:AAAAA
+testY:AAAAA
+testZ:AAAAA
+/home/bibhu/Cricket/Bangladesh> echo -e "File name with the content staring with A is displayed."
+File name with the content staring with A is displayed.
+/home/bibhu/Cricket/Bangladesh> grep -n '^' testX
+1:aaabb Aaaaa
+2:AAAAA
+3:bbbcc Bbbbb
+4:BBBBB
+5:ff-ff Ccccc
+6:CCCCC
+7:cccdd Ddddd
+8:DDDDD
+/home/bibhu/Cricket/Bangladesh> echo -e "All the contents inside the file testX are displayed with thier line number."
+All the contents inside the file testX are displayed with thier line number.
+/home/bibhu/Cricket/Bangladesh> alias lsaR="ls -aR"
+/home/bibhu/Cricket/Bangladesh> alias lsa="ls -a"
+/home/bibhu/Cricket/Bangladesh> alias
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsaR='ls -aR'
+/home/bibhu/Cricket/Bangladesh> cd
+/home/bibhu> lsa
+.                 .bash_history  break     Cricket  function1  nested_function  TEST      testY
+..                .bash_logout   continue  elseif   iff        new_function     testfile  until1
+18029955cw2part1  .bashrc        count     flower   .local     .profile         testX     usinf
+/home/bibhu> lsaR
+.:
+.                 .bash_history  break     Cricket  function1  nested_function  TEST      testY
+..                .bash_logout   continue  elseif   iff        new_function     testfile  until1
+18029955cw2part1  .bashrc        count     flower   .local     .profile         testX     usinf
+
+./Cricket:
+.  ..  Australia  Bangladesh  England  Pakistan
+
+./Cricket/Australia:
+.  ..  file10  testResult  testX  testY  testZ
+
+./Cricket/Bangladesh:
+.  ..  bashrc  testX  testY  testZ
+
+./Cricket/England:
+.  ..
+
+./Cricket/Pakistan:
+.  ..
+
+./.local:
+.  ..  share
+
+./.local/share:
+.  ..  nano
+
+./.local/share/nano:
+.  ..
+
+./TEST:
+.  ..  file1  file2
+/home/bibhu> unalias lsa
+/home/bibhu> unalias lsaR
+/home/bibhu> alias
+alias ls='ls --color=auto'
+/home/bibhu> nano .bashrc
+/home/bibhu> exit
+exit
+
+Script done on 2020-03-15 18:26:00+05:45 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-03-15 18:26:09+05:45 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="117" LINES="63"]
+bibhu@Bibhu-G7:~$ lsa
+.                 .bash_history  break     Cricket  function1  nested_function  TEST      testY
+..                .bash_logout   continue  elseif   iff        new_function     testfile  until1
+18029955cw2part1  .bashrc        count     flower   .local     .profile         testX     usinf
+bibhu@Bibhu-G7:~$ lsaR
+.:
+.                 .bash_history  break     Cricket  function1  nested_function  TEST      testY
+..                .bash_logout   continue  elseif   iff        new_function     testfile  until1
+18029955cw2part1  .bashrc        count     flower   .local     .profile         testX     usinf
+
+./Cricket:
+.  ..  Australia  Bangladesh  England  Pakistan
+
+./Cricket/Australia:
+.  ..  file10  testResult  testX  testY  testZ
+
+./Cricket/Bangladesh:
+.  ..  bashrc  testX  testY  testZ
+
+./Cricket/England:
+.  ..
+
+./Cricket/Pakistan:
+.  ..
+
+./.local:
+.  ..  share
+
+./.local/share:
+.  ..  nano
+
+./.local/share/nano:
+.  ..
+
+./TEST:
+.  ..  file1  file2
+bibhu@Bibhu-G7:~$ nano .bashrc
+bibhu@Bibhu-G7:~$ exit
+exit
+
+Script done on 2020-03-15 18:30:38+05:45 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-03-15 18:30:42+05:45 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="117" LINES="63"]
+bibhu@Bibhu-G7:~$ PS1='$PWD> '
+/home/bibhu> noAllf
+24
+/home/bibhu> noAsubsir
+78
+/home/bibhu> noAcs
+3
+/home/bibhu> fc -l
+410      cd
+411      lsa
+412      lsaR
+413      unalias lsa
+414      unalias lsaR
+415      alias
+416      nano .bashrc
+417      exit
+418      lsa
+419      lsaR
+420      nano .bashrc
+421      exit
+422      PS1='$PWD> '
+423      noAllf
+424      noAsubsir
+425      noAcs
+/home/bibhu> !-8
+lsaR
+.:
+.                 .bash_history  break     Cricket  function1  nested_function  TEST      testY
+..                .bash_logout   continue  elseif   iff        new_function     testfile  until1
+18029955cw2part1  .bashrc        count     flower   .local     .profile         testX     usinf
+
+./Cricket:
+.  ..  Australia  Bangladesh  England  Pakistan
+
+./Cricket/Australia:
+.  ..  file10  testResult  testX  testY  testZ
+
+./Cricket/Bangladesh:
+.  ..  bashrc  testX  testY  testZ
+
+./Cricket/England:
+.  ..
+
+./Cricket/Pakistan:
+.  ..
+
+./.local:
+.  ..  share
+
+./.local/share:
+.  ..  nano
+
+./.local/share/nano:
+.  ..
+
+./TEST:
+.  ..  file1  file2
+/home/bibhu> !c
+cd
+/home/bibhu> exit
+exit
+
+Script done on 2020-03-15 18:32:35+05:45 [COMMAND_EXIT_CODE="0"]

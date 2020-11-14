@@ -1,0 +1,224 @@
+#!/bin/bash
+#For Username and UserID
+value='^[+-]?[0-9]+$'
+if [ $# != 2 ] #Checking for user input of Username and UserID or not.
+then
+	echo -e "\nPlease Enter Your First Name and then ID Number."
+	exit
+
+elif ! [[ $2 =~ $value ]] #UserID can only be numeric value so checking if numeric value or not.
+then
+	echo -e "\nOnly numeric value for ID Number. Please Try again."
+	exit
+fi
+
+#Secret key to run the program
+secretkey="bibhu"
+count=4
+echo -e ""
+echo -e "Enter the secret key:\c"
+
+read key
+until [ $secretkey == $key ] #Looping five times until the secret key is not matched, and after that exit the program.
+do
+	if [ $count = 0 ]
+	then
+
+		echo -e "Incorrect Password. No chances left."
+		exit
+	else
+		echo -e "Invalid Key. $count chances remaining.\c"
+		read key
+		count=`expr $count - 1` #Decreases count everytime wrong key is entered.
+	fi
+done
+
+#Welcoming the user when secret key is matched
+echo -e "---------WELCOME-----------"
+echo -e "---------UserID:$2---------"
+echo -e "---------Name:$1-----------"
+echo -e "***Program started on $(date).***"
+
+
+#Guessing the best cricket team to played Cricket
+
+
+BestTeam() #Function for user to guess the best cricket team
+{
+echo -e ""
+echo -e "Guess the best cricket team:\c"
+read best
+case $best in
+NEP | nep) #executes when the users guesses the right team.
+	echo -e "The best team is Nepal."
+	echo -e "Its our country and we must support them."
+;;
+
+*) #for wrong guesses
+	echo -e "Wrong team guessed. Guess again."
+	BestTeam #Calls the function again and runs until the right team is guessed.
+;;
+esac
+}
+
+#Five players from Cricket
+
+ChoosePlayer() #Function for choosing player from five.
+{
+echo -e "\t\t\t--------------------------"
+echo -e "\t\t\t| Players      \t| Codes |"
+echo -e "\t\t\t| Paras Khdaka \t| PK    |"
+echo -e "\t\t\t| Virat Kholi  \t| VK    |"
+echo -e "\t\t\t| David Warner \t| DW    |"
+echo -e "\t\t\t| Ben Stokes   \t| BS    |"
+echo -e "\t\t\t| Ross Taylor  \t| RT    |"
+echo -e "\t\t\t--------------------------"
+
+#Three players to choose among five
+
+echo -e "Choose three players with thier corresponding code with a space seperating them."
+read p1 p2 p3 #Reads the three players choosen by the user.
+players=($p1 $p2 $p3)
+if [[ ${#players[@]} -eq 3 ]] #Condition if three players are choosen or not.
+then
+	echo "Three players has been choosen."
+else #Keeps on looping until three players are choosen.
+	echo "Please choose three players."
+	ChoosePlayer #Function keeps on looping until three players are choosen.
+
+fi
+play=($p1 $p2 $p3) #Checking if the users chooses the player code available and not other than existing codes.
+for p in ${play[@]};
+do
+	if [ $p == PK ] || [ $p == VK ] || [ $p == DW ] || [ $p == BS ] || [ $p == RT ]
+	then
+		echo
+	else
+		echo -e "Invalid Selection. Please select the code from the list."
+		ChoosePlayer #Keeps looping until user selection is valid.
+		break
+	fi
+done
+
+if [ $p1 == $p2 ] || [ $p1 == $p3 ] || [ $p2 == $p3 ] #Checking if the same player is choosen more than once.
+then
+	echo
+	echo "___________________________________________________________________________________"
+	echo "Same player has been choosen more than once. Please choose three different players."
+	echo "-----------------------------------------------------------------------------------"
+	ChoosePlayer # This function is called so the user can try again if the same player was entered more than once.
+fi
+
+}
+
+#One player to be choosen among three.
+ChooseOne() #Function for choosing one player among the three choosen players.
+{
+echo -e ""
+echo -e "\t\t\t The three choosen players are:"
+echo -e "\t\t\t ------------------------------"
+echo -e "\t\t\t| PlayerCode |"
+echo -e "\t\t\t--------------"
+echo -e "\t\t\t| 1.$p1      |"
+echo -e "\t\t\t| 2.$p2      |"
+echo -e "\t\t\t| 3.$p3      |"
+echo -e "\t\t\t--------------"
+
+PS3="Choose a number among the three numbers shown above:"
+select players in $p1 $p2 $p3
+do
+	case $players in  #Case for each number choosen.
+		$p1)
+		if [ -f $p1 ];
+		then 
+			cat $p1
+			details
+		break
+		else # Restarting when a non readable file is choosen.
+			echo -e "File not readable. Please choose again."
+			ChoosePlayer
+			ChooseOne
+			break
+		fi
+		;;
+		$p2)
+			if [ -f $p2 ];
+			then
+				cat $p2
+			details
+			break
+			else
+				echo -e "File not readable. Please choose again."
+				ChoosePlayer
+				ChooseOne
+				break
+			fi
+			;;
+		$p3)
+			if [ -f $p3 ];
+			then
+				cat $p3
+				details
+				break
+			else
+				echo -e "FIle not readable. Please choosen again."
+				ChoosePlayer
+				ChooseOne
+				break
+			fi
+			;;
+			*) # When the user inputs number except the existing numbers.
+			echo "Invalid Choice"
+			ChooseOne
+			break
+			;;
+		esac
+done
+}
+details()
+{
+echo -e "Press Y/y to know about other playes or any other key to continue:\c"
+read detail
+case $detail in
+Y|y)
+	ChooseOne
+;;
+*)
+;;
+esac
+
+}
+
+program() #Program sequence
+{
+
+#Cricket Teams
+echo -e "\t\t\t----------------------"
+echo -e "\t\t\t| Team       \t|Codes|"
+echo -e "\t\t\t----------------------"
+echo -e "\t\t\t| Australia   \t| AUS|"
+echo -e "\t\t\t| Bangladesh  \t| BAN|"
+echo -e "\t\t\t| Nepal       \t| NEP|"
+echo -e "\t\t\t| India       \t| IND|"
+echo -e "\t\t\t| England     \t| ENG|"
+echo -e "\t\t\t----------------------"
+
+BestTeam #Calls the function BestTeam
+
+ChoosePlayer #Calls the function ChoosePlayer
+
+ChooseOne #Calls the function ChooseOne
+
+}
+
+repeat="yes"
+while [ $repeat = "yes" ] || [ $repeat = "YES" ] || [ $repeat = "y" ] || [ $repeat = "Y" ]
+do #Re-running the process if the user wants to.
+	program #Callig the loop function.
+	echo -e "Do u want to try again? Press Yes to continue and other to exit:\c"
+	read repeat #Reading the user chouce.
+done
+echo -e "Thank you."
+
+
+
